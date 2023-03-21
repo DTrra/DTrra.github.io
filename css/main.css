@@ -17,19 +17,36 @@
 
 
 /* Portada */
-.portada img {
-
-  display: none;
+#portada {
+  background-image: url(/Links/Portada.jpg);
+  background-size: cover ;
+  height: 400px;
+  background-position: 10% 50%;
 }
 
-.portada p {
-  display: none;
+.atencion {
+  height:60px;
+  position:sticky;
+  float:left;
+}
+
+.txt-portada-1 {
+  font-size: 1rem;
+  color: #213363;
+  top: 10%;
+  left: 30%;
+  transform: translate(10%, 80%);
+
+  
+}
+
+.txt-portada-2 {
   font-size: 2rem;
   color: #213363;
-  position: absolute;
+  position:sticky;
   top: 40%;
   left: 30%;
-  transform: translate(-50%, -50%);
+  transform: translate(10%, 50%);
 }
 
 /* Portada END */
@@ -69,7 +86,7 @@
   box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
   border-radius: 10px;
   margin: 0 auto;
-  
+
 }
 
 .box p {
