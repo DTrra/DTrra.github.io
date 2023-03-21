@@ -1,0 +1,241 @@
+/* Header */
+.home .logo {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.tel {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1E335D;
+  font-size: 1.5rem;
+}
+
+/* Header END */
+
+
+/* Portada */
+.portada img {
+
+  display: none;
+}
+
+.portada p {
+  display: none;
+  font-size: 2rem;
+  color: #213363;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+/* Portada END */
+
+
+/* Caracteristicas */
+.caracteristiscas h3 {
+  text-align: center;
+  color: #404040;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.caracteristiscas h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.caracteristiscas .bg {
+  background-color: #dedada;
+}
+
+.caracteristiscas .bg h2 {
+  color: aliceblue;
+}
+
+.caracteristiscas div {
+  margin-bottom: 40px;
+}
+
+.box {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 230px;
+  height: 250px;
+  padding: 20px;
+  box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
+  border-radius: 10px;
+}
+
+.box p {
+  color: #213363;
+  margin-top: 30px;
+}
+
+/* Caracteristicas END */
+
+
+/* Imagenes productos  */
+/* Imagenes productos END */
+
+
+/* Accesorios */
+
+.accesorios h3 {
+  text-align: center;
+  color: #404040;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.accesorios h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.bg {
+  background-color: #dedada;
+}
+
+.accesorios .bg h3 {
+  color: aliceblue;
+}
+
+/* Accesorios END*/
+
+
+/* Imagenes de Accesorios */
+
+.posicion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formato img {
+  width: 240px;
+  height: 240px;
+}
+
+/* Imagenes de Accesorios END*/
+
+
+/* Información */
+
+.texto-1 {
+  color: #1E335D;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.texto-2 {
+  color: #1E335D;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.texto-3 {
+  color: #404040;
+  font-size: 22px;
+  text-align: center;
+}
+
+.texto-4 {
+  color: #1E335D;
+  font-size: 36px;
+  text-align: center;
+}
+
+.texto-4 p {
+  color: #1E335D;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Información END */
+
+
+
+/* Footer */
+.bg-footer {
+  background-color: #1E335D;
+}
+
+.color {
+  color: #dedada;
+  text-align: center;
+}
+
+/* Footer END*/
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 480px) {}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+
+  /* Header */
+
+  .home .logo {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .tel {
+    text-align: end;
+    vertical-align: middle;
+    color: rgb(12, 3, 54);
+    margin-top: 60px;
+    font-size: 1.5rem;
+  }
+
+  /* Header END */
+
+  /* Portada */
+
+  .portada img {
+    display: inline;
+  }
+
+  .portada p {
+    display: inline;
+    font-size: 2rem;
+    color: #213363;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Portada END*/
+
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 1600px) {}
