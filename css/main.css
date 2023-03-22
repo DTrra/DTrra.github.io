@@ -20,7 +20,7 @@
 #portada {
   background-image: url(/Links/Portada.jpg);
   background-size: cover ;
-  height: 400px;
+  height: 450px;
   background-position: 10% 50%;
 }
 
@@ -35,7 +35,7 @@
   color: #213363;
   top: 10%;
   left: 30%;
-  transform: translate(10%, 80%);
+  transform: translate(10%, 30%);
 
   
 }
