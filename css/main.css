@@ -3,12 +3,13 @@
   display: block;
   margin: auto;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .tel {
   text-align: center;
   margin-bottom: 20px;
+  margin-right: 20px;
   color: #1E335D;
   font-size: 1.5rem;
 }
@@ -20,7 +21,7 @@
 #portada {
   background-image: url(/Links/Portada.jpg);
   background-size: cover ;
-  height: 450px;
+  height: auto;
   background-position: 10% 50%;
 }
 
@@ -36,18 +37,63 @@
   top: 10%;
   left: 30%;
   transform: translate(10%, 30%);
-
-  
 }
 
 .txt-portada-2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #213363;
   position:sticky;
   top: 40%;
   left: 30%;
-  transform: translate(10%, 50%);
+  transform: translate(10%, 20%);
 }
+
+/* Portada Formulario */
+.contact-form {
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  position:sticky;
+  transform: translate(4%);
+  width: 300px;
+  height: auto;
+  border: solid 1px #dcdada;
+
+}
+
+.contact-form-txt h2{
+  font-size: 1rem;
+  color: #213363;
+  text-align: center;
+}
+.contact-form-txt h3{
+  font-size: 0.6rem;
+  color: #213363;
+  text-align: center;
+}
+
+input, textarea {
+  border: 0;
+  outline: none;
+  border: solid 1px #ccc;
+  padding: 0.3em;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-form-btn {
+  background: #1E335D;
+  padding: 2%;
+  text-align: center;
+}
+.contact-form-btn button {
+  background: none;
+  border: none;
+  color: white;
+  
+}
+
+
+/* Portada Formulario END*/
 
 /* Portada END */
 
@@ -145,33 +191,33 @@
 
 /* Información */
 
-.texto-1 {
+.informacion-texto-1 {
   color: #1E335D;
   font-size: 26px;
   text-align: center;
   margin-bottom: 0%;
 }
 
-.texto-2 {
+.informacion-texto-2 {
   color: #1E335D;
   font-size: 36px;
   text-align: center;
   margin-bottom: 5%;
 }
 
-.texto-3 {
+.informacion-texto-3 {
   color: #404040;
   font-size: 22px;
   text-align: center;
 }
 
-.texto-4 {
+.informacion-texto-4 {
   color: #1E335D;
   font-size: 36px;
   text-align: center;
 }
 
-.texto-4 p {
+.informacion-texto-4 p {
   color: #1E335D;
   font-size: 22px;
   text-align: center;
@@ -183,6 +229,7 @@
 
 /* Footer */
 .bg-footer {
+  padding: 2%;
   background-color: #1E335D;
 }
 
