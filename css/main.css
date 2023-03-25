@@ -9,26 +9,24 @@
 .tel {
   text-align: center;
   margin-bottom: 20px;
-  margin-right: 20px;
   color: #1E335D;
   font-size: 1.5rem;
 }
-
 /* Header END */
 
 
 /* Portada */
 #portada {
   background-image: url(/Links/Portada.jpg);
-  background-size: cover ;
+  background-size: cover;
   height: auto;
   background-position: 10% 50%;
 }
 
 .atencion {
-  height:60px;
-  position:sticky;
-  float:left;
+  height: 60px;
+  position: sticky;
+  float: left;
 }
 
 .txt-portada-1 {
@@ -42,7 +40,7 @@
 .txt-portada-2 {
   font-size: 1.5rem;
   color: #213363;
-  position:sticky;
+  position: sticky;
   top: 40%;
   left: 30%;
   transform: translate(10%, 20%);
@@ -52,26 +50,33 @@
 .contact-form {
   padding: 1rem;
   background-color: rgb(255, 255, 255);
-  position:sticky;
+  position: sticky;
   transform: translate(4%);
   width: 300px;
-  height: auto;
   border: solid 1px #dcdada;
 
 }
 
-.contact-form-txt h2{
+.contact-form-txt h2 {
   font-size: 1rem;
   color: #213363;
   text-align: center;
 }
-.contact-form-txt h3{
+
+.contact-form-txt h3 {
   font-size: 0.6rem;
   color: #213363;
   text-align: center;
 }
 
-input, textarea {
+.contact-form-txt p {
+  font-size: 0.6rem;
+  padding: 5px;
+  margin: 0;
+}
+
+input,
+textarea {
   border: 0;
   outline: none;
   border: solid 1px #ccc;
@@ -85,21 +90,20 @@ input, textarea {
   padding: 2%;
   text-align: center;
 }
+
 .contact-form-btn button {
   background: none;
   border: none;
   color: white;
-  
+
 }
-
-
 /* Portada Formulario END*/
-
 /* Portada END */
 
 
 /* Caracteristicas */
 .caracteristiscas h3 {
+  font-size: 1rem;
   text-align: center;
   color: #404040;
   margin-top: 40px;
@@ -107,21 +111,16 @@ input, textarea {
 }
 
 .caracteristiscas h2 {
+  color: white;
+  font-size: 1.2rem;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.caracteristiscas .bg {
-  background-color: #dedada;
-}
-
-.caracteristiscas .bg h2 {
-  color: aliceblue;
-}
-
-.caracteristiscas div {
-  margin-bottom: 40px;
+.caracteristiscas-bg-titulo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
 }
 
 .box {
@@ -132,14 +131,14 @@ input, textarea {
   box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
   border-radius: 10px;
   margin: 0 auto;
+  margin-bottom: auto;
 
 }
 
 .box p {
-  color: #213363;
+  color: #1E335D;
   margin-top: 30px;
 }
-
 /* Caracteristicas END */
 
 
@@ -148,8 +147,13 @@ input, textarea {
 
 
 /* Accesorios */
+.accesorios-bg-titulo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
+}
 
 .accesorios h3 {
+  font-size: 1rem;
   text-align: center;
   color: #404040;
   margin-top: 40px;
@@ -157,19 +161,16 @@ input, textarea {
 }
 
 .accesorios h2 {
+  color: white;
+  font-size: 1.2rem;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
-.bg {
-  background-color: #dedada;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .accesorios .bg h3 {
   color: aliceblue;
 }
-
 /* Accesorios END*/
 
 
@@ -229,7 +230,7 @@ input, textarea {
 
 /* Footer */
 .bg-footer {
-  padding: 2%;
+  padding: 10%;
   background-color: #1E335D;
 }
 
