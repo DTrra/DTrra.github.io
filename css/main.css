@@ -124,6 +124,11 @@ textarea {
   background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
 }
 
+.box-padding {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 .box {
   text-align: center;
   width: 230px;
