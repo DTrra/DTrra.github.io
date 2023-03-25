@@ -27,23 +27,26 @@
   height: 60px;
   position: sticky;
   float: left;
+
 }
 
 .txt-portada-1 {
   font-size: 1rem;
-  color: #213363;
-  top: 10%;
+  color:#1E335D;
+  padding-top: 20px;
+  margin-left: 20px;
+  /*top: 10%;
   left: 30%;
-  /*transform: translate(10%, 30%);*/
+  transform: translate(10%, 30%);*/
 }
 
 .txt-portada-2 {
   font-size: 1.5rem;
-  color: #213363;
-  position: sticky;
-  top: 40%;
+  color: #1E335D;
+  margin-left: 20px;
+  /*top: 40%;
   left: 30%;
-  /*transform: translate(10%, 20%);*/
+  transform: translate(10%, 20%);*/
 }
 
 /* Portada Formulario */
@@ -51,7 +54,7 @@
   padding: 1rem;
   background-color: rgb(255, 255, 255);
   position: sticky;
-  transform: translate(4%);
+  transform: translate(2%);
   width: 300px;
   border: solid 1px #dcdada;
 
@@ -59,13 +62,13 @@
 
 .contact-form-txt h2 {
   font-size: 1rem;
-  color: #213363;
+  color: #1E335D;
   text-align: center;
 }
 
 .contact-form-txt h3 {
   font-size: 0.6rem;
-  color: #213363;
+  color: #1E335D;
   text-align: center;
 }
 
@@ -144,6 +147,7 @@ textarea {
 .box p {
   color: #1E335D;
   margin-top: 30px;
+  font-weight: bold;
 }
 /* Caracteristicas END */
 
