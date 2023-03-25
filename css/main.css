@@ -83,10 +83,6 @@ textarea {
   height: 100%;
 }
 
-label {
-  padding: -initial;
-}
-
 .contact-form-btn {
   background: #1E335D;
   padding: 2%;
@@ -270,7 +266,37 @@ label {
 
 
 /* MEDIA QUERIES */
-@media (min-width: 480px) {}
+@media (min-width: 480px) {
+
+  /* Portada */
+  
+  .txt-portada-1 {
+    font-size: 1rem;
+    color:#1E335D;
+    padding-left: 40px;
+    margin-bottom: 0;
+  }
+  
+  .txt-portada-2 {
+    font-size: 1.5rem;
+    color: #1E335D;
+    padding-left: 40px;
+  }
+  
+  /* Portada Formulario */
+  .contact-form {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    transform: translate(6%);
+    width: 400px;
+    border: solid 1px #dcdada;
+  }
+
+  /* Portada Formulario END*/
+  /* Portada END */
+
+}
 
 @media (min-width: 576px) {}
 
