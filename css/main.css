@@ -245,8 +245,6 @@ textarea {
 
 /* Información END */
 
-
-
 /* Footer */
 
 .bg-footer {
@@ -260,6 +258,10 @@ textarea {
 }
 
 /* Footer END*/
+
+
+
+
 
 
 
@@ -292,62 +294,351 @@ textarea {
     width: 400px;
     border: solid 1px #dcdada;
   }
+  /* Portada Formulario END*/
+  /* Portada END */
+
+  /* Footer */
+
+.bg-footer {
+  padding: 4%;
+  background-color: #1E335D;
+}
+
+/* Footer END*/
+
+}
+
+@media (min-width: 576px) {
+
+  /* Portada */
+  
+  .txt-portada-1 {
+    font-size: 1rem;
+    color:#1E335D;
+    padding-left: 50px;
+    margin-bottom: 0;
+  }
+  
+  .txt-portada-2 {
+    font-size: 1.5rem;
+    color: #1E335D;
+    padding-left: 50px;
+  }
+  
+  /* Portada Formulario */
+  .contact-form {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    transform: translate(8%);
+    width: 400px;
+    border: solid 1px #dcdada;
+  }
 
   /* Portada Formulario END*/
   /* Portada END */
 
 }
 
-@media (min-width: 576px) {}
-
 @media (min-width: 768px) {
 
-  /* Header */
-
-  .home .logo {
-    float: left;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  .tel {
-    text-align: end;
-    vertical-align: middle;
-    color: rgb(12, 3, 54);
-    margin-top: 60px;
-    font-size: 1.5rem;
-  }
-
-  /* Header END */
+/* Header 
+.home .logo {
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.tel {
+  text-align: end;
+  vertical-align: middle;
+  color: rgb(12, 3, 54);
+  margin-top: 60px;
+  font-size: 1.5rem;
+}
+ Header END */
 
   /* Portada */
-
-  .portada img {
-    display: inline;
+  
+  .atencion {
+    height: 80px;
+    position: sticky;
+    float: left;
   }
 
-  .portada p {
-    display: inline;
-    font-size: 2rem;
-    color: #213363;
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+  .txt-portada-1 {
+    font-size: 1.3rem;
+    color:#1E335D;
+    padding-left: 60px;
+    margin-bottom: 0;
   }
+  
+  .txt-portada-2 {
+    font-size: 1.8rem;
+    color: #1E335D;
+    padding-left: 60px;
+  }
+  
+  /* Portada Formulario */
+  .contact-form {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    transform: translate(6%);
+    width: 600px;
+    border: solid 1px #dcdada;
+  }
+  .contact-form-txt h2 {
+    font-size: 1.5rem;
+    color: #1E335D;
+    text-align: center;
+  }
+  
+  .contact-form-txt h3 {
+    font-size: 1rem;
+    color: #1E335D;
+    text-align: center;
+  }
+  
+  .contact-form-txt p {
+    font-size: 0.6rem;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  input,
+  textarea {
+    border: 0;
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contact-form-btn {
+    background: #1E335D;
+    padding: 2%;
+    text-align: center;
+  }
+  
+  .contact-form-btn button {
+    background: none;
+    border: none;
+    color: white;
+  
+  }
+  /* Portada Formulario END*/
+  /* Portada END */
 
-  /* Portada END*/
+  /* Imagenes de Accesorios */
+
+.imagenes-accesorios-posicion {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formato img {
+  width: 210px;
+  height: 210px;
+}
+
+.formato p {
+  font-size: 1rem;
+  font-weight: bold;
+  color:#1E335D;
+  text-align: center;
+}
+
+  /* Footer */
+
+.bg-footer {
+  padding: 4%;
+  background-color: #1E335D;
+}
+/* Footer END*/
 
 }
 
 
+@media (min-width: 992px) {
+  
+
+
+  /* Portada */
+  
+  .atencion {
+    height: 80px;
+    position: sticky;
+    float: left;
+  }
+
+  .txt-portada-1 {
+    font-size: 1.3rem;
+    color:#1E335D;
+    padding-left: 200px;
+    margin-bottom: 0;
+  }
+  
+  .txt-portada-2 {
+    font-size: 1.8rem;
+    color: #1E335D;
+    padding-left: 200px;
+  }
+  
+  /* Portada Formulario */
+  .contact-form {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    transform: translate(30%);
+    width: 600px;
+    border: solid 1px #dcdada;
+  }
+  .contact-form-txt h2 {
+    font-size: 1.5rem;
+    color: #1E335D;
+    text-align: center;
+  }
+  
+  .contact-form-txt h3 {
+    font-size: 1rem;
+    color: #1E335D;
+    text-align: center;
+  }
+  
+  .contact-form-txt p {
+    font-size: 0.6rem;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  input,
+  textarea {
+    border: 0;
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contact-form-btn {
+    background: #1E335D;
+    padding: 2%;
+    text-align: center;
+  }
+  
+  .contact-form-btn button {
+    background: none;
+    border: none;
+    color: white;
+  
+  }
+  /* Portada Formulario END*/
+  /* Portada END */
+
+/* Caracteristicas */
+.caracteristiscas h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #404040;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.caracteristiscas h2 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.caracteristiscas-bg-titulo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
+}
+
+
+.box {
+  text-align: center;
+  width: 230px;
+  height: 250px;
+  padding: 20px;
+  box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: auto;
+
+}
+
+.box p {
+  color: #1E335D;
+  margin-top: 30px;
+  font-weight: bold;
+}
 
 
 
+/* Accesorios */
+.accesorios h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #404040;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.accesorios h2 {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*Accesorios END*/
+
+/* Imagenes de Accesorios */
+
+.imagenes-accesorios-posicion {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formato img {
+  width: 310px;
+  height: 310px;
+}
+
+.formato p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:#1E335D;
+  text-align: center;
+}
+
+/* Imagenes de Accesorios END*/
+
+  /* Footer */
+
+.bg-footer {
+  padding: 3%;
+  background-color: #1E335D;
+}
+/* Footer END*/
 
 
-
-@media (min-width: 992px) {}
+}
 
 @media (min-width: 1200px) {}
 
