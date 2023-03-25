@@ -465,8 +465,6 @@ textarea {
 
 
 @media (min-width: 992px) {
-  
-
 
   /* Portada */
   
@@ -564,7 +562,6 @@ textarea {
   background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
 }
 
-
 .box {
   text-align: center;
   width: 230px;
@@ -582,8 +579,6 @@ textarea {
   margin-top: 30px;
   font-weight: bold;
 }
-
-
 
 /* Accesorios */
 .accesorios h3 {
@@ -637,10 +632,213 @@ textarea {
 }
 /* Footer END*/
 
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+/* Header*/ 
+.home .logo {
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 5%;
+}
+.tel {
+  text-align: end;
+  vertical-align: middle;
+  color: rgb(12, 3, 54);
+  margin-top: 60px;
+  font-size: 1.6rem;
+  padding-right: 5%;
+}
+
+/* Header END */
+
+/* Portada */
+
+#portada {
+  background-image: url(/Links/Portada.jpg);
+  background-size: cover;
+  height: auto;
+  background-position: 10% 50%;
+}
+  
+.atencion {
+  height: 90px;
+  position: sticky;
+  float: left;
+}
+
+.txt-portada-1 {
+  font-size: 1.5rem;
+  color:#1E335D;
+  padding-left: 60px;
+  margin-bottom: 0;
+}
+
+.txt-portada-2 {
+  font-size: 2.7rem;
+  color: #1E335D;
+  padding-left: 60px;
+}
+
+/* Portada Formulario */
+.contact-form {
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  transform: translateX(110%);  
+  width: 500px;
+  border: solid 1px #dcdada;
+}
+.contact-form-txt h2 {
+  font-size: 1.5rem;
+  color: #1E335D;
+  text-align: center;
+}
+
+.contact-form-txt h3 {
+  font-size: 1rem;
+  color: #1E335D;
+  text-align: center;
+}
+
+.contact-form-txt p {
+  font-size: 0.6rem;
+  padding: 5px;
+  margin: 0;
+}
+
+input,
+textarea {
+  border: 0;
+  outline: none;
+  border: solid 1px #ccc;
+  padding: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-form-btn {
+  background: #1E335D;
+  padding: 2%;
+  text-align: center;
+}
+
+.contact-form-btn button {
+  background: none;
+  border: none;
+  color: white;
+
+}
+/* Portada Formulario END*/
+/* Portada END */
+
+/* Caracteristicas */
+.caracteristiscas h3 {
+font-size: 1.3rem;
+text-align: center;
+color: #404040;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.caracteristiscas h2 {
+color: white;
+font-size: 1.4rem;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.caracteristiscas-bg-titulo {
+background: rgb(255, 255, 255);
+background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
+}
+
+.box {
+text-align: center;
+width: 230px;
+height: 250px;
+padding: 20px;
+box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
+border-radius: 10px;
+margin: 0 auto;
+margin-bottom: auto;
 
 }
 
-@media (min-width: 1200px) {}
+.box p {
+color: #1E335D;
+margin-top: 30px;
+font-weight: bold;
+}
+
+/* Accesorios */
+.accesorios h3 {
+font-size: 1.3rem;
+text-align: center;
+color: #404040;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.accesorios h2 {
+color: white;
+font-size: 1.6rem;
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+/*Accesorios END*/
+
+/* Imagenes de Accesorios */
+
+.imagenes-accesorios-posicion {
+display: flex;
+flex-direction:row;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.formato img {
+width: 310px;
+height: 310px;
+}
+
+.formato p {
+font-size: 1.2rem;
+font-weight: bold;
+color:#1E335D;
+text-align: center;
+}
+
+/* Imagenes de Accesorios END*/
+
+/* Footer */
+
+.bg-footer {
+padding: 2%;
+background-color: #1E335D;
+}
+/* Footer END*/
+
+
+}
+
+
+
 
 @media (min-width: 1400px) {}
 
