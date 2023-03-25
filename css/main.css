@@ -34,7 +34,7 @@
   color: #213363;
   top: 10%;
   left: 30%;
-  transform: translate(10%, 30%);
+  /*transform: translate(10%, 30%);*/
 }
 
 .txt-portada-2 {
@@ -43,7 +43,7 @@
   position: sticky;
   top: 40%;
   left: 30%;
-  transform: translate(10%, 20%);
+  /*transform: translate(10%, 20%);*/
 }
 
 /* Portada Formulario */
@@ -113,6 +113,7 @@ textarea {
 .caracteristiscas h2 {
   color: white;
   font-size: 1.2rem;
+  font-weight: bold;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -156,27 +157,29 @@ textarea {
   font-size: 1rem;
   text-align: center;
   color: #404040;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 40px;
 }
 
 .accesorios h2 {
   color: white;
   font-size: 1.2rem;
+  font-weight: bold;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.accesorios .bg h3 {
-  color: aliceblue;
+.accesorios-bg-informacion {
+  background: linear-gradient(to top left, rgb(224, 226, 230), rgb(156, 157, 159));
 }
+
 /* Accesorios END*/
 
 
 /* Imagenes de Accesorios */
 
-.posicion {
+.imagenes-accesorios-posicion {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,6 +188,13 @@ textarea {
 .formato img {
   width: 240px;
   height: 240px;
+}
+
+.formato p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:#1E335D;
+  text-align: center;
 }
 
 /* Imagenes de Accesorios END*/
@@ -223,19 +233,25 @@ textarea {
   font-size: 22px;
   text-align: center;
 }
+.imagen-informacion-posicion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* Información END */
 
 
 
 /* Footer */
+
 .bg-footer {
-  padding: 10%;
+  padding: 8%;
   background-color: #1E335D;
 }
 
 .color {
-  color: #dedada;
+  color: white;
   text-align: center;
 }
 
