@@ -711,7 +711,7 @@ textarea {
 }
 
 .contact-form-txt p {
-  font-size: 0.6rem;
+  font-size: 1.2rem;
   padding: 5px;
   margin: 0;
 }
@@ -743,20 +743,24 @@ textarea {
 
 /* Caracteristicas */
 .caracteristiscas h3 {
-font-size: 1.3rem;
+font-size: 1.6rem;
 text-align: center;
 color: #404040;
 margin-top: 40px;
 margin-bottom: 40px;
+padding-left: 190px;
+padding-right: 190px;
 }
 
 .caracteristiscas h2 {
 color: white;
-font-size: 1.4rem;
+font-size: 1.6rem;
 font-weight: bold;
 text-align: center;
 margin-top: 20px;
 margin-bottom: 20px;
+padding-left: 190px;
+padding-right: 190px;
 }
 
 .caracteristiscas-bg-titulo {
@@ -784,11 +788,13 @@ font-weight: bold;
 
 /* Accesorios */
 .accesorios h3 {
-font-size: 1.3rem;
+font-size: 1.6rem;
 text-align: center;
 color: #404040;
 margin-top: 40px;
 margin-bottom: 40px;
+padding-left: 190px;
+padding-right: 190px;
 }
 
 .accesorios h2 {
@@ -818,13 +824,88 @@ height: 310px;
 }
 
 .formato p {
-font-size: 1.2rem;
+font-size: 1.3rem;
 font-weight: bold;
 color:#1E335D;
 text-align: center;
 }
 
 /* Imagenes de Accesorios END*/
+
+
+/* Información */
+
+.informacion {
+  display:flex;
+
+}
+
+.informacion-texto-1 {
+  color: #1E335D;
+  font-size: 26px;
+  margin-left: 40%;
+  text-align: left;
+
+}
+
+.informacion-texto-2 {
+  color: #1E335D;
+  font-size: 3rem;
+  margin-bottom: 5%;
+  margin-left: 40%;
+  text-align: left;
+}
+
+.informacion-texto-3 {
+  color: #404040;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: 40%;
+
+}
+
+.informacion-texto-4 {
+  color: #1E335D;
+  font-size: 36px;
+  
+}
+
+.informacion-texto-4 h3 {
+  color: #1E335D;
+  font-size: 2rem;
+  text-align: left;
+  letter-spacing: 3px;
+  line-height: 50px;
+  padding-left: 30%;
+
+}
+.informacion-texto-4 p {
+  color: #1E335D;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 30%;
+
+
+}
+.imagen-informacion-posicion {
+  display: flex;
+  flex-direction: column;
+   margin-left: 40%;
+}
+ .placa {
+  z-index: 1;
+  position: relative;
+  background-color: #F2F2F2 ;
+  height: 600px;
+  width: 650px;
+
+ }
+
+/* Información END */
+
+
+
 
 /* Footer */
 
