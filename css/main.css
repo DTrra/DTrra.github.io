@@ -12,6 +12,7 @@
   color: #1E335D;
   font-size: 1.2rem;
 }
+
 /* Header END */
 
 
@@ -31,12 +32,11 @@
 
 .txt-portada-1 {
   font-size: 1rem;
-  color:#1E335D;
+  color: #1E335D;
   padding-left: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 0;
-  
 }
 
 .txt-portada-2 {
@@ -95,9 +95,9 @@ textarea {
   color: white;
 
 }
+
 /* Portada Formulario END*/
 /* Portada END */
-
 
 /* Caracteristicas */
 .caracteristiscas h3 {
@@ -136,7 +136,6 @@ textarea {
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: auto;
-
 }
 
 .box p {
@@ -144,12 +143,11 @@ textarea {
   margin-top: 30px;
   font-weight: bold;
 }
-/* Caracteristicas END */
 
+/* Caracteristicas END */
 
 /* Imagenes productos  */
 /* Imagenes productos END */
-
 
 /* Accesorios */
 .accesorios-bg-titulo {
@@ -182,7 +180,6 @@ textarea {
 
 
 /* Imagenes de Accesorios */
-
 .imagenes-accesorios-posicion {
   display: flex;
   flex-direction: column;
@@ -197,15 +194,13 @@ textarea {
 .formato p {
   font-size: 1.2rem;
   font-weight: bold;
-  color:#1E335D;
+  color: #1E335D;
   text-align: center;
 }
 
 /* Imagenes de Accesorios END*/
 
-
 /* Información */
-
 .informacion-texto-1 {
   color: #1E335D;
   font-size: 26px;
@@ -237,6 +232,7 @@ textarea {
   font-size: 22px;
   text-align: center;
 }
+
 .imagen-informacion-posicion {
   display: flex;
   flex-direction: column;
@@ -246,15 +242,9 @@ textarea {
 /* Información END */
 
 /* Footer */
-
 .bg-footer {
   padding: 8%;
   background-color: #1E335D;
-}
-
-.color {
-  color: white;
-  text-align: center;
 }
 
 /* Footer END*/
@@ -271,20 +261,19 @@ textarea {
 @media (min-width: 480px) {
 
   /* Portada */
-  
   .txt-portada-1 {
     font-size: 1rem;
-    color:#1E335D;
+    color: #1E335D;
     padding-left: 40px;
     margin-bottom: 0;
   }
-  
+
   .txt-portada-2 {
     font-size: 1.5rem;
     color: #1E335D;
     padding-left: 40px;
   }
-  
+
   /* Portada Formulario */
   .contact-form {
     padding: 1rem;
@@ -294,37 +283,36 @@ textarea {
     width: 400px;
     border: solid 1px #dcdada;
   }
+
   /* Portada Formulario END*/
   /* Portada END */
 
   /* Footer */
+  .bg-footer {
+    padding: 4%;
+    background-color: #1E335D;
+  }
 
-.bg-footer {
-  padding: 4%;
-  background-color: #1E335D;
-}
-
-/* Footer END*/
+  /* Footer END*/
 
 }
 
 @media (min-width: 576px) {
 
   /* Portada */
-  
   .txt-portada-1 {
     font-size: 1rem;
-    color:#1E335D;
+    color: #1E335D;
     padding-left: 50px;
     margin-bottom: 0;
   }
-  
+
   .txt-portada-2 {
     font-size: 1.5rem;
     color: #1E335D;
     padding-left: 50px;
   }
-  
+
   /* Portada Formulario */
   .contact-form {
     padding: 1rem;
@@ -342,23 +330,7 @@ textarea {
 
 @media (min-width: 768px) {
 
-/* Header 
-.home .logo {
-  float: left;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.tel {
-  text-align: end;
-  vertical-align: middle;
-  color: rgb(12, 3, 54);
-  margin-top: 60px;
-  font-size: 1.5rem;
-}
- Header END */
-
   /* Portada */
-  
   .atencion {
     height: 80px;
     position: sticky;
@@ -367,17 +339,17 @@ textarea {
 
   .txt-portada-1 {
     font-size: 1.3rem;
-    color:#1E335D;
+    color: #1E335D;
     padding-left: 60px;
     margin-bottom: 0;
   }
-  
+
   .txt-portada-2 {
     font-size: 1.8rem;
     color: #1E335D;
     padding-left: 60px;
   }
-  
+
   /* Portada Formulario */
   .contact-form {
     padding: 1rem;
@@ -387,24 +359,25 @@ textarea {
     width: 600px;
     border: solid 1px #dcdada;
   }
+
   .contact-form-txt h2 {
     font-size: 1.5rem;
     color: #1E335D;
     text-align: center;
   }
-  
+
   .contact-form-txt h3 {
     font-size: 1rem;
     color: #1E335D;
     text-align: center;
   }
-  
+
   .contact-form-txt p {
     font-size: 0.6rem;
     padding: 5px;
     margin: 0;
   }
-  
+
   input,
   textarea {
     border: 0;
@@ -414,60 +387,56 @@ textarea {
     width: 100%;
     height: 100%;
   }
-  
+
   .contact-form-btn {
     background: #1E335D;
     padding: 2%;
     text-align: center;
   }
-  
+
   .contact-form-btn button {
     background: none;
     border: none;
     color: white;
-  
   }
+
   /* Portada Formulario END*/
   /* Portada END */
 
   /* Imagenes de Accesorios */
+  .imagenes-accesorios-posicion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-.imagenes-accesorios-posicion {
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+  .formato img {
+    width: 210px;
+    height: 210px;
+  }
 
-.formato img {
-  width: 210px;
-  height: 210px;
-}
-
-.formato p {
-  font-size: 1rem;
-  font-weight: bold;
-  color:#1E335D;
-  text-align: center;
-}
+  .formato p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1E335D;
+    text-align: center;
+  }
 
   /* Footer */
+  .bg-footer {
+    padding: 4%;
+    background-color: #1E335D;
+  }
 
-.bg-footer {
-  padding: 4%;
-  background-color: #1E335D;
+  /* Footer END*/
 }
-/* Footer END*/
-
-}
-
 
 @media (min-width: 992px) {
 
   /* Portada */
-  
   .atencion {
     height: 80px;
     position: sticky;
@@ -476,17 +445,17 @@ textarea {
 
   .txt-portada-1 {
     font-size: 1.3rem;
-    color:#1E335D;
+    color: #1E335D;
     padding-left: 200px;
     margin-bottom: 0;
   }
-  
+
   .txt-portada-2 {
     font-size: 1.8rem;
     color: #1E335D;
     padding-left: 200px;
   }
-  
+
   /* Portada Formulario */
   .contact-form {
     padding: 1rem;
@@ -496,24 +465,25 @@ textarea {
     width: 600px;
     border: solid 1px #dcdada;
   }
+
   .contact-form-txt h2 {
     font-size: 1.5rem;
     color: #1E335D;
     text-align: center;
   }
-  
+
   .contact-form-txt h3 {
     font-size: 1rem;
     color: #1E335D;
     text-align: center;
   }
-  
+
   .contact-form-txt p {
     font-size: 0.6rem;
     padding: 5px;
     margin: 0;
   }
-  
+
   input,
   textarea {
     border: 0;
@@ -523,678 +493,645 @@ textarea {
     width: 100%;
     height: 100%;
   }
-  
+
   .contact-form-btn {
     background: #1E335D;
     padding: 2%;
     text-align: center;
   }
-  
+
   .contact-form-btn button {
     background: none;
     border: none;
     color: white;
-  
   }
+
   /* Portada Formulario END*/
   /* Portada END */
 
-/* Caracteristicas */
-.caracteristiscas h3 {
-  font-size: 1.3rem;
-  text-align: center;
-  color: #404040;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+  /* Caracteristicas */
+  .caracteristiscas h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #404040;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-.caracteristiscas h2 {
-  color: white;
-  font-size: 1.4rem;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+  .caracteristiscas h2 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-.caracteristiscas-bg-titulo {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
-}
+  .caracteristiscas-bg-titulo {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
+  }
 
-.box {
-  text-align: center;
-  width: 230px;
-  height: 250px;
-  padding: 20px;
-  box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
-  border-radius: 10px;
-  margin: 0 auto;
-  margin-bottom: auto;
+  .box {
+    text-align: center;
+    width: 230px;
+    height: 250px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: auto;
+  }
 
-}
+  .box p {
+    color: #1E335D;
+    margin-top: 30px;
+    font-weight: bold;
+  }
 
-.box p {
-  color: #1E335D;
-  margin-top: 30px;
-  font-weight: bold;
-}
+  /* Accesorios */
+  .accesorios h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #404040;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
-/* Accesorios */
-.accesorios h3 {
-  font-size: 1.3rem;
-  text-align: center;
-  color: #404040;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+  .accesorios h2 {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-.accesorios h2 {
-  color: white;
-  font-size: 1.4rem;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-/*Accesorios END*/
+  /*Accesorios END*/
 
-/* Imagenes de Accesorios */
+  /* Imagenes de Accesorios */
+  .imagenes-accesorios-posicion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-.imagenes-accesorios-posicion {
-  display: flex;
-  flex-direction:row;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+  .formato img {
+    width: 310px;
+    height: 310px;
+  }
 
-.formato img {
-  width: 310px;
-  height: 310px;
-}
+  .formato p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1E335D;
+    text-align: center;
+  }
 
-.formato p {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color:#1E335D;
-  text-align: center;
-}
-
-/* Imagenes de Accesorios END*/
+  /* Imagenes de Accesorios END*/
 
   /* Footer */
+  .bg-footer {
+    padding: 3%;
+    background-color: #1E335D;
+  }
 
-.bg-footer {
-  padding: 3%;
-  background-color: #1E335D;
+  /* Footer END*/
 }
-/* Footer END*/
-
-}
-
-
-
-
 
 @media (min-width: 1200px) {
 
-/* Header*/ 
-.home .logo {
-  float: left;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-left: 5%;
+  /* Header*/
+  .home .logo {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 5%;
+  }
+
+  .tel {
+    text-align: end;
+    vertical-align: middle;
+    color: rgb(12, 3, 54);
+    margin-top: 60px;
+    font-size: 1.6rem;
+    padding-right: 5%;
+  }
+
+  /* Header END */
+
+  /* Portada */
+  #portada {
+    background-image: url(/Links/Portada.jpg);
+    background-size: cover;
+    height: auto;
+    background-position: 10% 50%;
+  }
+
+  .atencion {
+    height: 90px;
+    position: sticky;
+    float: left;
+  }
+
+  .txt-portada-1 {
+    font-size: 1.5rem;
+    color: #1E335D;
+    padding-left: 60px;
+    margin-bottom: 0;
+  }
+
+  .txt-portada-2 {
+    font-size: 2.7rem;
+    color: #1E335D;
+    padding-left: 60px;
+  }
+
+  /* Portada Formulario */
+  .contact-form {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    transform: translateX(110%);
+    width: 500px;
+    border: solid 1px #dcdada;
+  }
+
+  .contact-form-txt h2 {
+    font-size: 1.5rem;
+    color: #1E335D;
+    text-align: center;
+  }
+
+  .contact-form-txt h3 {
+    font-size: 1rem;
+    color: #1E335D;
+    text-align: center;
+  }
+
+  .contact-form-txt p {
+    font-size: 1.2rem;
+    padding: 5px;
+    margin: 0;
+  }
+
+  input,
+  textarea {
+    border: 0;
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-form-btn {
+    background: #1E335D;
+    padding: 2%;
+    text-align: center;
+  }
+
+  .contact-form-btn button {
+    background: none;
+    border: none;
+    color: white;
+  }
+
+  /* Portada Formulario END*/
+  /* Portada END */
+
+  /* Caracteristicas */
+  .caracteristiscas h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #404040;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+
+  .caracteristiscas h2 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+
+  .caracteristiscas-bg-titulo {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
+  }
+
+  .box {
+    width: 230px;
+    height: 250px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: auto;
+  }
+
+  .box p {
+    color: #1E335D;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* Accesorios */
+  .accesorios h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #404040;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
+
+  .accesorios h2 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*Accesorios END*/
+
+  /* Imagenes de Accesorios */
+  .imagenes-accesorios-posicion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formato img {
+    width: 310px;
+    height: 310px;
+    margin-left: 0px;
+  }
+
+  .formato p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1E335D;
+    text-align: center;
+  }
+
+  /* Imagenes de Accesorios END*/
+
+  /* Información */
+  .informacion {
+    display: flex;
+  }
+
+  .informacion-texto-1 {
+    color: #1E335D;
+    font-size: 26px;
+    margin-left: 40%;
+    text-align: left;
+  }
+
+  .informacion-texto-2 {
+    color: #1E335D;
+    font-size: 3rem;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    text-align: left;
+  }
+
+  .informacion-texto-3 {
+    color: #404040;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 40%;
+  }
+
+  .informacion-texto-4 {
+    color: #1E335D;
+    font-size: 36px;
+  }
+
+  .informacion-texto-4 h3 {
+    color: #1E335D;
+    font-size: 2rem;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 50px;
+    padding-left: 30%;
+  }
+
+  .informacion-texto-4 p {
+    color: #1E335D;
+    font-size: 1.7rem;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 30%;
+  }
+
+  .imagen-informacion-posicion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+  }
+
+  .placa {
+    z-index: 1;
+    position: relative;
+    background-color: #F2F2F2;
+    height: 600px;
+    width: 650px;
+  }
+
+  /* Información END */
+
+  /* Footer */
+  .bg-footer {
+    padding: 2%;
+    background-color: #1E335D;
+  }
+
+  /* Footer END*/
 }
-.tel {
-  text-align: end;
-  vertical-align: middle;
-  color: rgb(12, 3, 54);
-  margin-top: 60px;
-  font-size: 1.6rem;
-  padding-right: 5%;
-}
-
-/* Header END */
-
-/* Portada */
-
-#portada {
-  background-image: url(/Links/Portada.jpg);
-  background-size: cover;
-  height: auto;
-  background-position: 10% 50%;
-}
-  
-.atencion {
-  height: 90px;
-  position: sticky;
-  float: left;
-}
-
-.txt-portada-1 {
-  font-size: 1.5rem;
-  color:#1E335D;
-  padding-left: 60px;
-  margin-bottom: 0;
-}
-
-.txt-portada-2 {
-  font-size: 2.7rem;
-  color: #1E335D;
-  padding-left: 60px;
-}
-
-/* Portada Formulario */
-.contact-form {
-  padding: 1rem;
-  background-color: rgb(255, 255, 255);
-  position: sticky;
-  transform: translateX(110%);  
-  width: 500px;
-  border: solid 1px #dcdada;
-}
-.contact-form-txt h2 {
-  font-size: 1.5rem;
-  color: #1E335D;
-  text-align: center;
-}
-
-.contact-form-txt h3 {
-  font-size: 1rem;
-  color: #1E335D;
-  text-align: center;
-}
-
-.contact-form-txt p {
-  font-size: 1.2rem;
-  padding: 5px;
-  margin: 0;
-}
-
-input,
-textarea {
-  border: 0;
-  outline: none;
-  border: solid 1px #ccc;
-  padding: 2%;
-  width: 100%;
-  height: 100%;
-}
-
-.contact-form-btn {
-  background: #1E335D;
-  padding: 2%;
-  text-align: center;
-}
-
-.contact-form-btn button {
-  background: none;
-  border: none;
-  color: white;
-
-}
-/* Portada Formulario END*/
-/* Portada END */
-
-/* Caracteristicas */
-.caracteristiscas h3 {
-font-size: 1.6rem;
-text-align: center;
-color: #404040;
-margin-top: 40px;
-margin-bottom: 40px;
-padding-left: 190px;
-padding-right: 190px;
-}
-
-.caracteristiscas h2 {
-color: white;
-font-size: 1.6rem;
-font-weight: bold;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
-padding-left: 190px;
-padding-right: 190px;
-}
-
-.caracteristiscas-bg-titulo {
-background: rgb(255, 255, 255);
-background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
-}
-
-.box {
-width: 230px;
-height: 250px;
-padding: 20px;
-box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
-border-radius: 10px;
-margin: 0 auto;
-margin-bottom: auto;
-
-}
-
-.box p {
-color: #1E335D;
-text-align: center;
-font-weight: bold;
-
-}
-
-/* Accesorios */
-.accesorios h3 {
-font-size: 1.6rem;
-text-align: center;
-color: #404040;
-margin-top: 40px;
-margin-bottom: 40px;
-padding-left: 190px;
-padding-right: 190px;
-}
-
-.accesorios h2 {
-color: white;
-font-size: 1.6rem;
-font-weight: bold;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
-}
-/*Accesorios END*/
-
-/* Imagenes de Accesorios */
-
-.imagenes-accesorios-posicion {
-display: flex;
-flex-direction:row;
-align-items: center;
-justify-content: center;
-margin-top: 20px;
-margin-bottom: 20px;
-}
-
-.formato img {
-width: 310px;
-height: 310px;
-margin-left: 0px;
-}
-
-.formato p {
-font-size: 1.3rem;
-font-weight: bold;
-color:#1E335D;
-text-align: center;
-}
-
-/* Imagenes de Accesorios END*/
-
-
-/* Información */
-
-.informacion {
-  display:flex;
-
-}
-
-.informacion-texto-1 {
-  color: #1E335D;
-  font-size: 26px;
-  margin-left: 40%;
-  text-align: left;
-
-}
-
-.informacion-texto-2 {
-  color: #1E335D;
-  font-size: 3rem;
-  margin-bottom: 5%;
-  margin-left: 40%;
-  text-align: left;
-}
-
-.informacion-texto-3 {
-  color: #404040;
-  font-size: 1.5rem;
-  text-align: left;
-  margin-left: 40%;
-
-}
-
-.informacion-texto-4 {
-  color: #1E335D;
-  font-size: 36px;
-  
-}
-
-.informacion-texto-4 h3 {
-  color: #1E335D;
-  font-size: 2rem;
-  text-align: left;
-  letter-spacing: 3px;
-  line-height: 50px;
-  padding-left: 30%;
-
-}
-.informacion-texto-4 p {
-  color: #1E335D;
-  font-size: 1.7rem;
-  text-align: left;
-  font-weight: bold;
-  padding-left: 30%;
-
-
-}
-.imagen-informacion-posicion {
-  display: flex;
-  flex-direction: column;
-   margin-left: 40%;
-}
- .placa {
-  z-index: 1;
-  position: relative;
-  background-color: #F2F2F2 ;
-  height: 600px;
-  width: 650px;
-
- }
-
-/* Información END */
-
-
-
-
-/* Footer */
-
-.bg-footer {
-padding: 2%;
-background-color: #1E335D;
-}
-/* Footer END*/
-
-
-}
-
-
-
-
 
 @media (min-width: 1400px) {
 
-  /* Header*/ 
-.home .logo {
-  float: left;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-left: 5%;
-}
-.tel {
-  text-align: end;
-  vertical-align: middle;
-  color: rgb(12, 3, 54);
-  margin-top: 60px;
-  font-size: 1.6rem;
-  padding-right: 5%;
-}
+  /* Header*/
+  .home .logo {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 5%;
+  }
 
-/* Header END */
+  .tel {
+    text-align: end;
+    vertical-align: middle;
+    color: rgb(12, 3, 54);
+    margin-top: 60px;
+    font-size: 1.6rem;
+    padding-right: 5%;
+  }
 
-/* Portada */
+  /* Header END */
 
-#portada {
-  background-image: url(/Links/Portada.jpg);
-  background-size: cover;
-  height: auto;
-  background-position: 0% 50%;
-}
-  
-.atencion {
-  height: 90px;
-  position: sticky;
-  float: left;
-}
-.txt-portada-1 {
-  font-size: 1.5rem;
-  color:#1E335D;
-  padding-left: 60px;
-  margin-bottom: 0;
-}
+  /* Portada */
+  #portada {
+    background-image: url(/Links/Portada.jpg);
+    background-size: cover;
+    height: auto;
+    background-position: 0% 50%;
+  }
 
-.txt-portada-2 {
-  font-size: 2.7rem;
-  color: #1E335D;
-  padding-left: 60px;
-  padding-top: 60px;
-}
+  .atencion {
+    height: 90px;
+    position: sticky;
+    float: left;
+  }
 
-/* Portada Formulario */
-.contact-form {
-  padding: 1rem;
-  background-color: rgb(255, 255, 255);
-  position: sticky;
-  transform: translateX(150%);  
-  width: 500px;
-  border: solid 1px #dcdada;
-}
-.contact-form-txt h2 {
-  font-size: 1.5rem;
-  color: #1E335D;
-  text-align: center;
-}
+  .txt-portada-1 {
+    font-size: 1.5rem;
+    color: #1E335D;
+    padding-left: 60px;
+    margin-bottom: 0;
+  }
 
-.contact-form-txt h3 {
-  font-size: 1rem;
-  color: #1E335D;
-  text-align: center;
-}
+  .txt-portada-2 {
+    font-size: 2.7rem;
+    color: #1E335D;
+    padding-left: 60px;
+    padding-top: 60px;
+  }
 
-.contact-form-txt p {
-  font-size: 1rem;
-  padding: 5px;
-  margin: 0;
-}
+  /* Portada Formulario */
+  .contact-form {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    transform: translateX(150%);
+    width: 500px;
+    border: solid 1px #dcdada;
+  }
 
-input,
-textarea {
-  border: 0;
-  outline: none;
-  border: solid 1px #ccc;
-  padding: 2%;
-  width: 100%;
-  height: 100%;
-}
+  .contact-form-txt h2 {
+    font-size: 1.5rem;
+    color: #1E335D;
+    text-align: center;
+  }
 
-.contact-form-btn {
-  background: #1E335D;
-  padding: 2%;
-  text-align: center;
-}
+  .contact-form-txt h3 {
+    font-size: 1rem;
+    color: #1E335D;
+    text-align: center;
+  }
 
-.contact-form-btn button {
-  background: none;
-  border: none;
-  color: white;
+  .contact-form-txt p {
+    font-size: 1rem;
+    padding: 5px;
+    margin: 0;
+  }
 
-}
-/* Portada Formulario END*/
-/* Portada END */
+  input,
+  textarea {
+    border: 0;
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+  }
 
-/* Caracteristicas */
-.caracteristiscas h3 {
-font-size: 1.6rem;
-text-align: center;
-color: #404040;
-margin-top: 40px;
-margin-bottom: 40px;
-padding-left: 190px;
-padding-right: 190px;
-}
+  .contact-form-btn {
+    background: #1E335D;
+    padding: 2%;
+    text-align: center;
+  }
 
-.caracteristiscas h2 {
-color: white;
-font-size: 1.6rem;
-font-weight: bold;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
-padding-left: 190px;
-padding-right: 190px;
-}
+  .contact-form-btn button {
+    background: none;
+    border: none;
+    color: white;
+  }
 
-.caracteristiscas-bg-titulo {
-background: rgb(255, 255, 255);
-background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
-}
+  /* Portada Formulario END*/
+  /* Portada END */
 
-.box {
-width: 230px;
-height: 250px;
-padding: 20px;
-box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
-border-radius: 10px;
-margin: 0 auto;
-margin-bottom: auto;
+  /* Caracteristicas */
+  .caracteristiscas h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #404040;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
 
-}
+  .caracteristiscas h2 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
 
-.box p {
-color: #1E335D;
-text-align: center;
-font-weight: bold;
+  .caracteristiscas-bg-titulo {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
+  }
 
-}
+  .box {
+    width: 230px;
+    height: 250px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: auto;
+  }
 
-/* Accesorios */
-.accesorios h3 {
-font-size: 1.6rem;
-text-align: center;
-color: #404040;
-margin-top: 40px;
-margin-bottom: 40px;
-padding-left: 190px;
-padding-right: 190px;
-}
+  .box p {
+    color: #1E335D;
+    text-align: center;
+    font-weight: bold;
 
-.accesorios h2 {
-color: white;
-font-size: 1.6rem;
-font-weight: bold;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
-}
-/*Accesorios END*/
+  }
 
-/* Imagenes de Accesorios */
+  /* Accesorios */
+  .accesorios h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    color: #404040;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 190px;
+    padding-right: 190px;
+  }
 
-.imagenes-accesorios-posicion {
-display: flex;
-flex-direction:row;
-align-items: center;
-justify-content: center;
-margin-top: 20px;
-margin-bottom: 20px;
-}
+  .accesorios h2 {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-.formato img {
-width: 310px;
-height: 310px;
-margin-left: 0px;
-}
+  /*Accesorios END*/
 
-.formato p {
-font-size: 1.3rem;
-font-weight: bold;
-color:#1E335D;
-text-align: center;
-}
+  /* Imagenes de Accesorios */
+  .imagenes-accesorios-posicion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-/* Imagenes de Accesorios END*/
+  .formato img {
+    width: 310px;
+    height: 310px;
+    margin-left: 0px;
+  }
 
+  .formato p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #1E335D;
+    text-align: center;
+  }
 
-/* Información */
+  /* Imagenes de Accesorios END*/
 
-.informacion {
-  display:flex;
+  /* Información */
+  .informacion {
+    display: flex;
+  }
 
-}
+  .informacion-texto-1 {
+    color: #1E335D;
+    font-size: 26px;
+    margin-left: 40%;
+    text-align: left;
+  }
 
-.informacion-texto-1 {
-  color: #1E335D;
-  font-size: 26px;
-  margin-left: 40%;
-  text-align: left;
+  .informacion-texto-2 {
+    color: #1E335D;
+    font-size: 3rem;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    text-align: left;
+  }
 
-}
+  .informacion-texto-3 {
+    color: #404040;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 40%;
+  }
 
-.informacion-texto-2 {
-  color: #1E335D;
-  font-size: 3rem;
-  margin-bottom: 5%;
-  margin-left: 40%;
-  text-align: left;
-}
+  .informacion-texto-4 {
+    color: #1E335D;
+    font-size: 36px;
+  }
 
-.informacion-texto-3 {
-  color: #404040;
-  font-size: 1.5rem;
-  text-align: left;
-  margin-left: 40%;
+  .informacion-texto-4 h3 {
+    color: #1E335D;
+    font-size: 2rem;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 50px;
+    padding-left: 30%;
+  }
 
-}
+  .informacion-texto-4 p {
+    color: #1E335D;
+    font-size: 1.7rem;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 30%;
+  }
 
-.informacion-texto-4 {
-  color: #1E335D;
-  font-size: 36px;
-  
-}
+  .imagen-informacion-posicion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+  }
 
-.informacion-texto-4 h3 {
-  color: #1E335D;
-  font-size: 2rem;
-  text-align: left;
-  letter-spacing: 3px;
-  line-height: 50px;
-  padding-left: 30%;
+  .placa {
+    z-index: 1;
+    position: relative;
+    background-color: #F2F2F2;
+    height: 600px;
+    width: 650px;
+  }
 
-}
-.informacion-texto-4 p {
-  color: #1E335D;
-  font-size: 1.7rem;
-  text-align: left;
-  font-weight: bold;
-  padding-left: 30%;
+  /* Información END */
 
+  /* Footer */
+  .bg-footer {
+    padding: 2%;
+    background-color: #1E335D;
+  }
 
-}
-.imagen-informacion-posicion {
-  display: flex;
-  flex-direction: column;
-   margin-left: 40%;
-}
- .placa {
-  z-index: 1;
-  position: relative;
-  background-color: #F2F2F2 ;
-  height: 600px;
-  width: 650px;
-
- }
-
-/* Información END */
-
-
-
-
-/* Footer */
-
-.bg-footer {
-padding: 2%;
-background-color: #1E335D;
-}
-/* Footer END*/
-
+  /* Footer END*/
 
 }
 
