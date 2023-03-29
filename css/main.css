@@ -123,8 +123,8 @@ textarea {
 }
 
 .box-padding {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .box {
@@ -150,6 +150,7 @@ textarea {
 .espaciado {
   padding: 10px;
 }
+
 /* Imagenes productos END */
 
 /* Accesorios */
@@ -250,14 +251,12 @@ textarea {
   background-color: #1E335D;
 }
 
+.text-footer {
+  color: white;
+  text-align: center;
+}
+
 /* Footer END*/
-
-
-
-
-
-
-
 
 
 /* MEDIA QUERIES */
@@ -403,8 +402,15 @@ textarea {
     color: white;
   }
 
-  /* Portada Formulario END*/
+  /* Portada Formulario END */
   /* Portada END */
+
+  /* Caracteristicas */
+  .box-padding {
+    padding-top: 30px;
+  }
+
+  /* Caracteristicas END */
 
   /* Imagenes de Accesorios */
   .imagenes-accesorios-posicion {
@@ -427,6 +433,59 @@ textarea {
     color: #1E335D;
     text-align: center;
   }
+  /* Imagenes de Accesorios END*/
+
+  /* Informacion */ 
+  .informacion {
+    display: flex;
+  }
+
+  .informacion-texto-1 {
+    color: #1E335D;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    text-align: left;
+  }
+
+  .informacion-texto-2 {
+    color: #1E335D;
+    font-size: 2.2rem;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    text-align: left;
+  }
+
+  .informacion-texto-3 {
+    color: #404040;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-left: 20%;
+  }
+
+  .informacion-texto-4 h3 {
+    color: #1E335D;
+    font-size: 1.2rem;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 50px;
+    padding-left: 30%;
+  }
+
+  .informacion-texto-4 p {
+    color: #1E335D;
+    font-size: 1.1rem;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 30%;
+  }
+
+  .imagen-informacion-posicion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+  }
+
+  /* Informacion END */ 
 
   /* Footer */
   .bg-footer {
@@ -596,10 +655,65 @@ textarea {
 
   /* Imagenes de Accesorios END*/
 
+  /* Informacion */ 
+  .informacion {
+    display: flex;
+  }
+
+  .informacion-texto-1 {
+    color: #1E335D;
+    font-size: 1.4rem;
+    margin-left: 30%;
+    text-align: left;
+  }
+
+  .informacion-texto-2 {
+    color: #1E335D;
+    font-size: 2.6rem;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    text-align: left;
+  }
+
+  .informacion-texto-3 {
+    color: #404040;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 30%;
+  }
+
+  .informacion-texto-4 h3 {
+    color: #1E335D;
+    font-size: 1.8rem;
+    text-align: left;
+    letter-spacing: 3px;
+    padding-left: 30%;
+  }
+
+  .informacion-texto-4 p {
+    color: #1E335D;
+    font-size: 1.6rem;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 30%;
+  }
+
+  .imagen-informacion-posicion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+  }
+
+  /* Informacion END */
+
   /* Footer */
   .bg-footer {
     padding: 3%;
     background-color: #1E335D;
+  }
+
+  .text-footer {
+    font-size: 1.2rem;
   }
 
   /* Footer END*/
@@ -713,8 +827,9 @@ textarea {
     color: #404040;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-left: 190px;
+    /*padding-left: 190px;
     padding-right: 190px;
+    */
   }
 
   .caracteristiscas h2 {
@@ -756,8 +871,9 @@ textarea {
     color: #404040;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-left: 190px;
+   /* padding-left: 190px;
     padding-right: 190px;
+   */
   }
 
   .accesorios h2 {
@@ -867,6 +983,9 @@ textarea {
     background-color: #1E335D;
   }
 
+  .text-footer {
+    font-size: 1.4rem;
+  }
   /* Footer END*/
 }
 
@@ -979,8 +1098,9 @@ textarea {
     color: #404040;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-left: 190px;
+    /*padding-left: 190px;
     padding-right: 190px;
+    */
   }
 
   .caracteristiscas h2 {
@@ -1132,6 +1252,10 @@ textarea {
   .bg-footer {
     padding: 2%;
     background-color: #1E335D;
+  }
+
+  .text-footer {
+    font-size: 1.4rem;
   }
 
   /* Footer END*/
