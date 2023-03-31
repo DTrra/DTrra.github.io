@@ -18,7 +18,7 @@
 
 /* Portada */
 #portada {
-  background-image: url(/Links/Portada.jpg);
+  background-image: url("./../Links/Portada.jpg");
   background-size: cover;
   height: auto;
   background-position: 10% 50%;
@@ -49,8 +49,7 @@
 .contact-form {
   padding: 1rem;
   background-color: rgb(255, 255, 255);
-  position: sticky;
-  transform: translate(2%);
+  /*transform: translate(2%);*/
   width: 300px;
   border: solid 1px #dcdada;
 }
