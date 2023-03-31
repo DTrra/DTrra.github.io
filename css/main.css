@@ -15,7 +15,6 @@
 
 /* Header END */
 
-
 /* Portada */
 #portada {
   background-image: url("./../Links/Portada.jpg");
@@ -125,20 +124,25 @@ textarea {
 }
 
 .box {
-  text-align: center;
-  width: 230px;
-  height: 250px;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;  
   box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
   border-radius: 10px;
-  margin: 0 auto;
-  margin-bottom: auto;
 }
 
 .box p {
+  text-align: center;
   color: #1E335D;
   margin-top: 30px;
   font-weight: bold;
+  margin-bottom: 0;
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Caracteristicas END */
@@ -195,13 +199,17 @@ textarea {
 .formato p {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #1E335D;
+  color: #8b8b8b;
   text-align: center;
 }
 
 /* Imagenes de Accesorios END*/
 
 /* Información */
+.margen-informacion {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .informacion-texto-1 {
   color: #1E335D;
   font-size: 26px;
@@ -243,12 +251,14 @@ textarea {
 .placa {
   background-color: #F2F2F2;
 }
+
 /* Información END */
 
 /* Footer */
 .bg-footer {
   padding: 8%;
-  background-color: #1E335D;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
 }
 
 .text-footer {
@@ -304,23 +314,24 @@ textarea {
 }
 
 @media (min-width: 768px) {
-    /* Header*/
-    .home .logo {
-      float: left;
-      margin-top: 40px;
-      margin-bottom: 40px;
-      padding-left: 5%;
-    }
-  
-    .tel {
-      text-align: end;
-      vertical-align: middle;
-      color: rgb(12, 3, 54);
-      margin-top: 60px;
-      font-size: 1.6rem;
-    }
-  
-    /* Header END */
+
+  /* Header*/
+  .home .logo {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 5%;
+  }
+
+  .tel {
+    text-align: end;
+    vertical-align: middle;
+    color: rgb(12, 3, 54);
+    margin-top: 60px;
+    font-size: 1.6rem;
+  }
+
+  /* Header END */
 
   /* Portada */
   .atencion {
@@ -408,13 +419,6 @@ textarea {
     height: 210px;
   }
 
-  .formato p {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #1E335D;
-    text-align: center;
-  }
-
   /* Imagenes de Accesorios END*/
 
   /* Informacion */
@@ -446,19 +450,17 @@ textarea {
 
   .informacion-texto-4 h3 {
     color: #1E335D;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: left;
     letter-spacing: 3px;
-    line-height: 50px;
-    padding-left: 30%;
   }
 
   .informacion-texto-4 p {
     color: #1E335D;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: left;
     font-weight: bold;
-    padding-left: 30%;
+
   }
 
   .imagen-informacion-posicion {
@@ -480,23 +482,23 @@ textarea {
 
 @media (min-width: 992px) {
 
-    /* Header*/
-    .home .logo {
-      float: left;
-      margin-top: 40px;
-      margin-bottom: 40px;
-      padding-left: 5%;
-    }
-  
-    .tel {
-      text-align: end;
-      vertical-align: middle;
-      color: rgb(12, 3, 54);
-      margin-top: 60px;
-      font-size: 1.6rem;
-    }
-  
-    /* Header END */
+  /* Header*/
+  .home .logo {
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 5%;
+  }
+
+  .tel {
+    text-align: end;
+    vertical-align: middle;
+    color: rgb(12, 3, 54);
+    margin-top: 60px;
+    font-size: 1.6rem;
+  }
+
+  /* Header END */
 
   /* Portada */
   .atencion {
@@ -517,7 +519,7 @@ textarea {
   }
 
   /* Portada Formulario */
- 
+
 
   .contact-form-txt h2 {
     font-size: 1.5rem;
@@ -585,23 +587,6 @@ textarea {
     background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
   }
 
-  .box {
-    text-align: center;
-    width: 230px;
-    height: 250px;
-    padding: 20px;
-    box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: auto;
-  }
-
-  .box p {
-    color: #1E335D;
-    margin-top: 30px;
-    font-weight: bold;
-  }
-
   /* Accesorios */
   .accesorios h3 {
     font-size: 1.3rem;
@@ -635,13 +620,6 @@ textarea {
   .formato img {
     width: 310px;
     height: 310px;
-  }
-
-  .formato p {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #1E335D;
-    text-align: center;
   }
 
   /* Imagenes de Accesorios END*/
@@ -678,7 +656,6 @@ textarea {
     font-size: 1.8rem;
     text-align: left;
     letter-spacing: 3px;
-    padding-left: 30%;
   }
 
   .informacion-texto-4 p {
@@ -686,7 +663,6 @@ textarea {
     font-size: 1.6rem;
     text-align: left;
     font-weight: bold;
-    padding-left: 30%;
   }
 
   .imagen-informacion-posicion {
@@ -732,7 +708,7 @@ textarea {
   /* Header END */
 
   /* Portada */
-   .atencion {
+  .atencion {
     height: 90px;
     position: sticky;
     float: left;
@@ -825,22 +801,6 @@ textarea {
     background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
   }
 
-  .box {
-    width: 230px;
-    height: 250px;
-    padding: 20px;
-    box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: auto;
-  }
-
-  .box p {
-    color: #1E335D;
-    text-align: center;
-    font-weight: bold;
-  }
-
   /* Accesorios */
   .accesorios h3 {
     font-size: 1.6rem;
@@ -882,9 +842,6 @@ textarea {
 
   .formato p {
     font-size: 1.3rem;
-    font-weight: bold;
-    color: #1E335D;
-    text-align: center;
   }
 
   /* Imagenes de Accesorios END*/
@@ -927,7 +884,7 @@ textarea {
     text-align: left;
     letter-spacing: 3px;
     line-height: 50px;
-    padding-left: 30%;
+
   }
 
   .informacion-texto-4 p {
@@ -935,7 +892,7 @@ textarea {
     font-size: 1.7rem;
     text-align: left;
     font-weight: bold;
-    padding-left: 30%;
+
   }
 
   .imagen-informacion-posicion {
@@ -969,7 +926,6 @@ textarea {
   }
 
   .tel {
-
     margin-top: 60px;
     font-size: 1.6rem;
   }
@@ -1074,22 +1030,6 @@ textarea {
     background: linear-gradient(to top left, rgb(12, 26, 55), rgb(57, 79, 123));
   }
 
-  .box {
-    width: 230px;
-    height: 250px;
-    padding: 20px;
-    box-shadow: 0px 5px 10px 0px rgb(194, 191, 191);
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: auto;
-  }
-
-  .box p {
-    color: #1E335D;
-    text-align: center;
-    font-weight: bold;
-
-  }
 
   /* Accesorios */
   .accesorios h3 {
@@ -1127,19 +1067,10 @@ textarea {
     margin-left: 0px;
   }
 
-  .formato p {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: #1E335D;
-    text-align: center;
-  }
-
   /* Imagenes de Accesorios END*/
 
   /* Información */
-  .informacion {
-    display: flex;
-  }
+ 
 
   .informacion-texto-1 {
     color: #1E335D;
@@ -1174,7 +1105,6 @@ textarea {
     text-align: left;
     letter-spacing: 3px;
     line-height: 50px;
-    padding-left: 30%;
   }
 
   .informacion-texto-4 p {
@@ -1182,21 +1112,6 @@ textarea {
     font-size: 1.7rem;
     text-align: left;
     font-weight: bold;
-    padding-left: 30%;
-  }
-
-  .imagen-informacion-posicion {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40%;
-  }
-
-  .placa {
-    z-index: 1;
-    position: relative;
-    background-color: #F2F2F2;
-    height: 600px;
-    width: 650px;
   }
 
   /* Información END */
@@ -1204,8 +1119,7 @@ textarea {
   /* Footer */
   .bg-footer {
     padding: 2%;
-    background-color: #1E335D;
-  }
+   }
 
   .text-footer {
     font-size: 1.4rem;
