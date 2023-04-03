@@ -58,7 +58,7 @@
 }
 
 .contact-form-txt h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #1E335D;
   text-align: center;
 }
@@ -91,6 +91,24 @@ textarea {
   color: white;
 
 }
+
+.Newsletter {
+  display: flex;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.Newsletter input {
+  width: 20px;
+}
+
+.Newsletter label {
+  width: 100%;
+  font-size: 0.75rem;
+  color: #969696;
+}
+
 
 /* Portada Formulario END*/
 /* Portada END */
@@ -320,7 +338,6 @@ textarea {
     float: left;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-left: 5%;
   }
 
   .tel {
@@ -487,7 +504,6 @@ textarea {
     float: left;
     margin-top: 40px;
     margin-bottom: 40px;
-    padding-left: 5%;
   }
 
   .tel {
