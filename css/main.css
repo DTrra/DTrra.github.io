@@ -248,16 +248,18 @@ textarea {
   text-align: center;
 }
 
-.informacion-texto-4 {
+.informacion-texto-4 h3 {
   color: #1E335D;
-  font-size: 36px;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .informacion-texto-4 p {
   color: #1E335D;
-  font-size: 22px;
+  font-size: 1.3rem;
   text-align: center;
+  font-weight: bold;
+  line-height: 40px;
 }
 
 .imagen-informacion-posicion {
@@ -466,18 +468,12 @@ textarea {
   }
 
   .informacion-texto-4 h3 {
-    color: #1E335D;
-    font-size: 1.5rem;
     text-align: left;
-    letter-spacing: 3px;
   }
 
   .informacion-texto-4 p {
-    color: #1E335D;
-    font-size: 1.2rem;
     text-align: left;
-    font-weight: bold;
-
+    line-height: 40px;
   }
 
   .imagen-informacion-posicion {
@@ -668,17 +664,12 @@ textarea {
   }
 
   .informacion-texto-4 h3 {
-    color: #1E335D;
     font-size: 1.8rem;
-    text-align: left;
-    letter-spacing: 3px;
   }
 
   .informacion-texto-4 p {
-    color: #1E335D;
     font-size: 1.6rem;
-    text-align: left;
-    font-weight: bold;
+    line-height: 60px;
   }
 
   .imagen-informacion-posicion {
@@ -895,20 +886,12 @@ textarea {
   }
 
   .informacion-texto-4 h3 {
-    color: #1E335D;
     font-size: 2rem;
-    text-align: left;
-    letter-spacing: 3px;
     line-height: 50px;
-
   }
 
   .informacion-texto-4 p {
-    color: #1E335D;
     font-size: 1.7rem;
-    text-align: left;
-    font-weight: bold;
-
   }
 
   .imagen-informacion-posicion {
@@ -1113,21 +1096,6 @@ textarea {
   .informacion-texto-4 {
     color: #1E335D;
     font-size: 36px;
-  }
-
-  .informacion-texto-4 h3 {
-    color: #1E335D;
-    font-size: 2rem;
-    text-align: left;
-    letter-spacing: 3px;
-    line-height: 50px;
-  }
-
-  .informacion-texto-4 p {
-    color: #1E335D;
-    font-size: 1.7rem;
-    text-align: left;
-    font-weight: bold;
   }
 
   /* Información END */
