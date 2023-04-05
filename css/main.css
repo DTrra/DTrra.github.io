@@ -305,7 +305,6 @@ textarea {
   /* Footer */
   .bg-footer {
     padding: 4%;
-    background-color: #1E335D;
   }
 
   /* Footer END*/
@@ -423,13 +422,6 @@ textarea {
 
   /* Informacion END */
 
-  /* Footer */
-  .bg-footer {
-    padding: 4%;
-    background-color: #1E335D;
-  }
-
-  /* Footer END*/
 }
 
 @media (min-width: 992px) {
@@ -509,7 +501,6 @@ textarea {
   /* Footer */
   .bg-footer {
     padding: 3%;
-    background-color: #1E335D;
   }
 
   .text-footer {
@@ -621,7 +612,6 @@ textarea {
   /* Footer */
   .bg-footer {
     padding: 2%;
-    background-color: #1E335D;
   }
 
   .text-footer {
@@ -642,11 +632,7 @@ textarea {
   /* Información END */
 
   /* Footer */
-  .bg-footer {
-    padding: 2%;
-   }
-
-  .text-footer {
+   .text-footer {
     font-size: 1.4rem;
   }
 
